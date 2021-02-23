@@ -84,7 +84,8 @@ int main(void)
           
           
           parse(line, argv);       /*   parse the line               */
-          if (strcmp(argv[0], "exit") == 0)  /* is it an "exit"?     */
+          if (strcmp(argv[0], "exit") == 0)
+           /* is it an "exit"?     */
                exit(0);            /*   exit if it is                */
           execute(argv);           /* otherwise, execute the command */
      }
